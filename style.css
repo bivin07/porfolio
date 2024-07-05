@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playwrite NZ';
+}
+
+nav{
+    background-color: transparent;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    color: brown;
+    font-weight: bolder;
+    margin: 20px;
+    text-decoration: none;
+    
+}
+video{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    
+}
+.overlay{
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    color: aquamarine;
+
+}
+h1:hover{
+    text-shadow: 2px 4px 6px yellowgreen;
+    text-decoration: underline;
+}
+span{
+    color: aquamarine;
+    font-size: 30px;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+}
+
+#home::before{
+    content: "";
+    background-image: url(https://bairesdev.mo.cloudinary.net/blog/2022/08/portrait-of-a-man-using-a-computer-in-a-modern-office-picture-id1344688156-1.jpg?tx=w_1920,q_auto);
+    background-size: cover;
+    height: 100%;
+}
+
+.main{
+    display: flex;
+    position: absolute;
+    border: 3px ridge blueviolet;
+    padding: 20px;
+    height: 100px;
+    margin-top: 30%;
+    left: 30%;
+    box-shadow: 2px 4px 6px white;
+}
+main:hover{
+    scale: 1.05;
+    background-color: blueviolet;
+}
+.pic{
+    display: flex;
+}
+
+.pic img{
+    width: 400px;
+}
+.pic h4{
+    text-align: center;
+    color: crimson;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.pic p{
+    text-align: justify;
+    padding: 10px;
+    font-style: italic;
+}
+h3{
+    text-align: center;
+    background-color: cyan;
+    color: darkblue;
+    margin-top: 5px;
+    margin: 10px;
+
+}
+
+.gallery {
+    border: 3px inset blueviolet;
+    margin: 5px;
+    box-shadow: 2px 4px 6px;
+
+}
+
+.gallery img{
+    width: 450px;
+    margin-left: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.gallery img:hover{
+    box-shadow:2px 4px 6px blueviolet;
+    scale: 1.06;
+}
+
+.row{
+    background-color: grey;
+    display: flex;
+    height: 700px;
+
+}
+
+.box{
+    border: 2px inset blueviolet;
+    height: 600px;
+    margin: 10px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.box:hover{
+    background-position: right  bottom;
+}
+
+
+.box img {
+    width: 100%;
+
+}
+
+.box img:hover{               
+    scale:1.06;
+}
+
+.box h5{
+    margin-top: 10px;
+    color: brown;
+    font-size: 20px;
+    text-align: center;
+}
+.box h5:hover{
+    text-decoration: underline;
+}
+.box p{
+    text-align: justify;
+    font-style: inherit;
+}
+
+form{
+    width: 500px;
+     margin-left: 500px;
+}
+
+.input{
+    width: 100%;
+    margin: 10px;
+
+}
+
+button{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    cursor: pointer;
+
+
+}
+
+.cv{
+    background-color: gray;
+    color: beige;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 60%;
+    border-radius: 20%;
+}
